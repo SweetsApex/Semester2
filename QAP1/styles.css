@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('backgroundimg.jpeg'); /* Replace with your image file path */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Fix the background in place */
+  background-position: center; /* Center the background image */
+  background-color: #f0f0f0;
+  
+}
+
+section {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url('backgroundsecond.jpeg'); /* Replace with your image file path */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Fix the background in place */
+  background-position: center; /* Center the background image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto; /* Clear floats within sections */
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-top: 12px;
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 30px; /* Add left margin to create space from the image */
+  padding-left: 20px;
+  list-style: disc; /* Use disc style bullet points */
+}
+
+li {
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+img {
+  max-width: 50%;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
